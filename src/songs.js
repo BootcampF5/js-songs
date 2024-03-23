@@ -41,14 +41,4 @@ function getLongestSong(){
 
 
 
-if(typeof module !== 'undefined') {
-    module.exports = {
-        getAllArtists,
-        getSongsFromArtist,
-        orderAlphabetically,
-        orderByYear,
-        songsByGenre,
-        minutsToSeconds,
-        getLongestSong
-    };
-};
+export { getAllArtists, getSongsFromArtist, orderAlphabetically, orderByYear, songsByGenre, minutsToSeconds, getLongestSong };
